@@ -1,0 +1,38 @@
+diff --git a/latex/custom-docbook.sty b/latex/custom-docbook.sty
+index 8e0cc81..b02cf94 100644
+--- a/latex/custom-docbook.sty
++++ b/latex/custom-docbook.sty
+@@ -6,18 +6,23 @@
+ 
+ \RequirePackageWithOptions{docbook}
+ 
+-\setlength{\paperwidth}{7.444in}
+-\setlength{\paperheight}{9.681in}
+-\setlength{\textwidth}{5.8in}
+-\setlength{\textheight}{7.5in}
+-\setlength{\topmargin}{0.5in}
+-\setlength{\headheight}{0.5in}
+-\setlength{\headwidth}{5.8in}
+-\setlength{\headsep}{0.20in}
+-\setlength{\oddsidemargin}{0.8in}
+-\setlength{\evensidemargin}{0.8in}
++\setlength{\paperwidth}{90mm}
++\setlength{\paperheight}{120mm}
++\setlength{\textwidth}{85mm}
++\setlength{\textheight}{117mm}
++\setlength{\topmargin}{-4mm}
++\setlength{\headheight}{0mm}
++\setlength{\headwidth}{86mm}
++\setlength{\headsep}{5mm}
++\setlength{\oddsidemargin}{2mm}
++\setlength{\evensidemargin}{2mm}
+ \setlength{\parindent}{0in}
+ \setlength{\parskip}{0.25in}
++\setlength{\footskip}{3mm}
++\renewcommand{\footrulewidth}{0.01pt}
++\renewcommand{\plainfootrulewidth}{0.01pt}
++\renewcommand{\headrulewidth}{0.01pt}
++\renewcommand{\plainheadrulewidth}{0.01pt}
+ 
+ % Fancy header/footer for the front matter
+ 
